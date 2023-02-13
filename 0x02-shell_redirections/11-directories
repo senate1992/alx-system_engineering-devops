@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -types d ! -path . | wc -l
+find . -maxdepth 1 -type d ! -name "*.*" -prune ! -name . ! -name .. | wc -l
