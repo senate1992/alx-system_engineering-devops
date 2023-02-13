@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 \( -type d -empty -o -type f -empty \) -printf '%f\n'
+find . -empty | rev | cut -d '\' -f1 | rev
