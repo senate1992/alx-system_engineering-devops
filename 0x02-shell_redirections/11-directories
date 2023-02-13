@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type d -not -name . -not -name .. -not -name '.*' | wc -l
+find . -types d ! -path . | wc -1
