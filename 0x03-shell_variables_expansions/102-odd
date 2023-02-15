@@ -1,2 +1,2 @@
 #!/bin/bash
-per| -|ne 'print if $. % 2 ==1'
+Paste -d, - - | cut -d, -f1
