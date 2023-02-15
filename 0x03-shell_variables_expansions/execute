@@ -1,0 +1,4 @@
+#/bin/bash
+ls -t | head -nl
+file=$FILE 'ls -t | head -nl'
+chmod u+x file
